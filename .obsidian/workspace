@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b47a106925b1acb8",
+        "id": "07f8d676c3ea5cad",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/blog/posts/hello-world.md",
+            "file": "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 491.5
   },
   "right": {
     "id": "d6a2046e5e61313b",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/posts/hello-world.md",
+                "file": "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/posts/hello-world.md",
+                "file": "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/posts/hello-world.md"
+                "file": "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md"
               }
             }
           }
@@ -128,11 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b47a106925b1acb8",
+  "active": "07f8d676c3ea5cad",
   "lastOpenFiles": [
-    "static/6055_1.jpg",
-    "content/blog/posts/hello-world.md",
-    "readme.md",
-    "static/4we3oe.jpg.md"
+    "content/blog/posts/2021-12-21-linux-windows-how-to-authenticate-your-github-account-with-git-and-ssh.md",
+    "content/blog/posts/2021-12-24-windows-login-to-your-server-by-ssh-key.md",
+    "content/blog/posts/2021-12-27-linux-backup-your-code-and-database-in-one-script.md",
+    "content/blog/posts/2022-02-10-alias-in-vue-with-vite.md",
+    "content/blog/posts/2022-02-10-type-declarations-for-javascript-library-in-typescript-project.md",
+    "content/blog/posts/2022-02-10-setup-environment-variables-in-vue-with-vite.md",
+    "content/blog/posts/2021-12-26-huong-dan-setup-cicd-cho-du-an-golang-voi-github-actions-va-docker.md",
+    "content/blog/posts/2021-12-20-login-to-your-vps-by-one-click-batch-file.md",
+    "content/blog/posts/2021-12-07-loveletter-virus-source-code-fixed-on-windows-98.md",
+    "content/blog/posts/hello-world.md"
   ]
 }
