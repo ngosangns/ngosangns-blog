@@ -5,4 +5,4 @@ dev:
 build:
 	hugo -D
 post:
-	hugo new --kind post $(name)
+	hugo new content/blog/posts/$(name).md

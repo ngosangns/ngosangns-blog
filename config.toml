@@ -6,7 +6,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+# googleAnalytics = "UA-123-45"
 pygmentsUseClasses = true
 
 [minify]
@@ -24,11 +24,11 @@ DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
-ShowWordCount = true
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
@@ -40,11 +40,11 @@ showtoc = false
 tocopen = false
 
 [params.assets]
-favicon = "<link / abs url>"
-favicon16x16 = "<link / abs url>"
-favicon32x32 = "<link / abs url>"
-apple_touch_icon = "<link / abs url>"
-safari_pinned_tab = "<link / abs url>"
+favicon = "https://avatars.githubusercontent.com/u/46277436"
+favicon16x16 = "https://avatars.githubusercontent.com/u/46277436"
+favicon32x32 = "https://avatars.githubusercontent.com/u/46277436"
+apple_touch_icon = "https://avatars.githubusercontent.com/u/46277436"
+safari_pinned_tab = "https://avatars.githubusercontent.com/u/46277436"
 
 [params.label]
 text = "ngosangns"
@@ -98,10 +98,10 @@ hidden = true
 hiddenInList = true
 hiddenInSingle = true
 
-[params.editPost]
-URL = "https://github.com/<path_to_repo>/content"
-Text = "Suggest Changes"
-appendFilePath = true
+# [params.editPost]
+# URL = "https://github.com/<path_to_repo>/content"
+# Text = "Suggest Changes"
+# appendFilePath = true
 
 [params.fuseOpts]
 isCaseSensitive = false
@@ -132,3 +132,5 @@ keys = [ "title", "permalink", "summary", "content" ]
 
 [markup.highlight]
 noClasses = false
+[markup.goldmark.renderer]
+hardWraps = true

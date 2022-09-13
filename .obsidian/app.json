@@ -1,0 +1,7 @@
+{
+  "attachmentFolderPath": "static",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": false
+}
