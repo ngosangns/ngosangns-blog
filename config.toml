@@ -15,13 +15,13 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Me"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
+title = "ngosangns"
+description = "Welcome to my blog"
+keywords = [ "ngosangns", "blog" ]
+author = "ngosangns"
+images = [ "https://avatars.githubusercontent.com/u/46277436" ]
 DateFormat = "January 2, 2006"
-defaultTheme = "auto"
+defaultTheme = "dark"
 disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = false
