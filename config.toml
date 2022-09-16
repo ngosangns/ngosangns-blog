@@ -72,13 +72,13 @@ imageTitle = "ngosangns"
 Title = "Hi there 👋"
 Content = "Welcome to my blog"
 
-[[params.socialIcons]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/ngosangns"
+# [[params.socialIcons]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/ngosangns"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/ngosangns"
+# [[params.socialIcons]]
+# name = "github"
+# url = "https://github.com/ngosangns"
 
 # [params.analytics.google]
 # SiteVerificationTag = "XYZabc"
@@ -126,11 +126,11 @@ name = "Tags"
 url = "/tags/"
 weight = 10
 
-# [[menu.main]]
-# identifier = "about-me"
-# name = "About me"
-# url = "/about-me/"
-# weight = 10
+[[menu.main]]
+identifier = "about-me"
+name = "About me"
+url = "/about-me/"
+weight = 10
 
 [markup.highlight]
 noClasses = false
