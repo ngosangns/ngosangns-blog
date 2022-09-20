@@ -9,10 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^9.1.0",
-    "jquery": "^3.6.0",
-    "vue": "^3.2.37",
-    "vue-demi": "^0.13.6"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
