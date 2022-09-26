@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "07f8d676c3ea5cad",
+        "id": "1f70a0a67419a96f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491.5
+    "width": 257.5
   },
   "right": {
     "id": "d6a2046e5e61313b",
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "07f8d676c3ea5cad",
+  "active": "1f70a0a67419a96f",
   "lastOpenFiles": [
-    "content/blog/posts/2022-02-10-type-declarations-for-javascript-library-in-typescript-project.md",
-    "content/blog/posts/2022-02-10-setup-environment-variables-in-vue-with-vite.md",
+    "content/blog/posts/2021-12-07-loveletter-virus-source-code-fixed-on-windows-98.md",
+    "content/blog/posts/2022-09-16-jsdoc-cong-cu-giup-ban-viet-comment-vao-du-an-javascript.md",
+    "content/blog/posts/2021-12-27-fix-gitignore-not-ignore-files.md",
     "content/blog/posts/2022-02-10-alias-in-vue-with-vite.md",
     "content/blog/posts/2021-12-27-linux-backup-your-code-and-database-in-one-script.md",
     "content/blog/posts/2021-12-26-huong-dan-setup-cicd-cho-du-an-golang-voi-github-actions-va-docker.md",
-    "content/blog/posts/2021-12-27-fix-gitignore-not-ignore-files.md",
-    "content/blog/posts/2021-12-07-loveletter-virus-source-code-fixed-on-windows-98.md",
-    "content/blog/posts/2021-12-20-login-to-your-vps-by-one-click-batch-file.md",
     "content/blog/posts/2021-12-21-linux-windows-how-to-authenticate-your-github-account-with-git-and-ssh.md",
-    "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md"
+    "content/blog/posts/2021-12-20-login-to-your-vps-by-one-click-batch-file.md",
+    "content/blog/posts/2021-12-24-ubuntu-how-to-add-new-ftp-account-to-your-linux-server.md",
+    "content/blog/posts/2021-12-24-windows-login-to-your-server-by-ssh-key.md"
   ]
 }
