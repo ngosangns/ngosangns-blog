@@ -36,11 +36,11 @@ body {
   display: flex;
   align-items: flex-start;
   z-index: 1;
-  margin: auto;
   background: transparent;
   border-radius: 1.2rem;
   flex-direction: row;
   z-index: 1;
+  max-width: 120rem;
 }
 
 .bg {
@@ -150,6 +150,8 @@ body {
   overflow: hidden;
   width: 10vw;
   height: 10vw;
+  max-width: 15rem;
+  max-height: 15rem;
   min-width: 5rem;
   min-height: 5rem;
   cursor: pointer;
@@ -193,6 +195,8 @@ body {
 #grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 6vw;
+  max-width: 120rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -208,7 +212,10 @@ body {
 .grid-1 {
   max-width: 40rem;
   min-width: 15rem;
-  margin: .5rem 6vw 0 6vw;
+  margin-top: .5rem;
+  margin-bottom: 0;
+  margin-right: 6vw;
+  margin-left: 6vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
