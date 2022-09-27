@@ -1,5 +1,6 @@
 <script setup>
 import GridProjectList from "./../components/GridProjectList.vue";
+import CV from "./../components/CV.vue";
 import { ref, onMounted, computed } from "vue";
 
 const triggerWhenWindowResize = ref(true);
@@ -8,6 +9,7 @@ const imageSizePath = computed(() => {
   if (window.innerWidth < 620) return "sm";
   return "md";
 });
+const displayCV = ref(false);
 
 window.addEventListener("resize", () => {
   triggerWhenWindowResize.value = !triggerWhenWindowResize.value;
@@ -122,10 +124,11 @@ onMounted(() => {
 });
 </script>
 <template lang="pug">
+CV(:display="displayCV", @back="() => (displayCV = false)")
 header#header
   .bg.bg-preload(ref="bg")
   #info
-    h1 ngosangns
+    h1(@click="() => (displayCV = true)") ngosangns
     h2
       small Software Developer
     .h3-wrapper
