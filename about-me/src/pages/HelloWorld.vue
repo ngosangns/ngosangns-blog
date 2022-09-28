@@ -1,7 +1,7 @@
 <script setup>
 import GridProjectList from "./../components/GridProjectList.vue";
 import CV from "./../components/CV.vue";
-import { ref, onMounted, computed } from "vue";
+import { ref, computed } from "vue";
 
 const triggerWhenWindowResize = ref(true);
 const imageSizePath = computed(() => {
@@ -100,7 +100,7 @@ const findMeOn = {
   ],
 };
 
-onMounted(() => {
+const renderSvg = () => {
   // Load SVGs
   for (const item of document.getElementsByTagName("img")) {
     if (!item.hasAttribute("data-src")) continue;
@@ -126,10 +126,14 @@ onMounted(() => {
     };
     img.src = String(item.getAttribute("data-src"));
   }
-});
+};
 </script>
 <template lang="pug">
-CV(:display="displayCV", @back="() => (displayCV = false)")
+CV(
+  v-show="displayCV"
+  @back="() => (displayCV = false)",
+  @mounted="renderSvg"
+)
 header#header
   .bg.bg-preload(ref="bg")
   #info
