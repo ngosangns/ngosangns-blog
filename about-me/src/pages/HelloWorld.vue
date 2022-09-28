@@ -83,15 +83,20 @@ const findMeOn = {
       link: "https://github.com/ngosangns/",
     },
     {
+      name: "Viblo",
+      icon: "./svg/viblo.svg",
+      link: "https://viblo.asia/u/ngosangns/",
+    },
+    {
+      name: "devChallenges",
+      icon: "./svg/devchallenges.svg",
+      link: "https://devchallenges.io/portfolio/ngosangns/",
+    },
+    {
       name: "Facebook",
       icon: "./svg/facebook.svg",
-      link: "https://www.facebook.com/ngosangns/",
+      link: "https://www.facebook.com/yeunacuaanh/",
     },
-    // {
-    //   name: "devChallenges",
-    //   icon: ``,
-    //   link: "https://devchallenges.io/portfolio/ngosangns/",
-    // },
   ],
 };
 
@@ -140,7 +145,7 @@ header#header
         | &nbsp;Ho Chi Minh City
     .social-wrapper
       a(v-for="item of findMeOn.items", :href="item.link", target="_blank")
-        img.svg(:data-src="item.icon")
+        img.svg(:data-src="item.icon", :alt="item.name")
 
     span.audio-name
       | Kono Sekai De - Leo Ieiri

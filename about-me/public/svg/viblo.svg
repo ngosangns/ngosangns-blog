@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="24" height="24" style="enable-background:new 0 0 1210 410;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:#6B717B;}
+	.st1{fill:#5387C6;}
+</style>
+  </defs>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px;" cx="12.028" cy="12" rx="10" ry="10"/>
+  <path id="V" class="st1" d="M 11.256 15.977 L 12.765 15.977 L 17 5.759 L 15.485 5.75 L 13.183 11.294 L 10.807 11.294 L 8.515 5.75 L 7 5.75 L 11.256 15.977 Z M 7.608 16.941 L 16.395 16.941 L 16.395 18.223 L 7.608 18.223 L 7.608 16.941 Z" style="fill: rgb(255, 255, 255);"/>
+</svg>
